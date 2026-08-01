@@ -9,6 +9,7 @@ namespace BestBuyBestPractices2026
     public interface IDepartmentRepository
     {
         public IEnumerable<Department> GetAllDepartments();
-        
+        void InsertDepartment(string name);
+
     }
 }
